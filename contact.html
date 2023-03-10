@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDU University - HorridHanu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="logo.png" alt="University.com"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="nav-items"><a href="home.html">Home</a></li>
+                    <li class="nav-items"><a href="about.html">About</a></li>
+                    <li class="nav-items"><a href="course.html">Course</a></li>
+                    <li class="nav-items"><a href="blog.html">Blog</a></li>
+                    <li class="nav-items"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+
+    </section>
+
+
+    <!--------------------Contact us section-->
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3329.654600654621!2d103.8114238816273!3d1.5586221410202108!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da6eaf32da76a9%3A0x30a4766eff5b6b53!2sCrescendo%20International%20College%2C%20Johor%20Bahru!5e0!3m2!1sen!2smy!4v1678447145518!5m2!1sen!2smy"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+             <div>
+              <span>
+               <h5>Road Cemerlang , College</h5>
+               <p>Jalan Lebuh Cemerlang, Taman Desa <br>Cemerlang, 81800 Ulu Tiram,Johor</p>
+                </span>
+                </div>
+                <div>
+                <span>
+                <h5>078 636 888</h5>
+                <p>Monday to saturday, 9AM to 5PM</p>
+                 </span>
+                </div>
+                <div>
+                <span>
+                <h5>crescendo.edu.my</h5>
+                 <p>Main query</p>
+                </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="index.php" method="post">
+                    <input type="text" name="name" placeholder="Username" required>
+                    <input type="email"name="email" placeholder="Email Address" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea rows="8" name="message" placeholder="Your message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <hr>
+  
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We take pride in being the world's largest university, with a diverse community of students, faculty, and staff from all over the globe.</p>
+        <p>NISO University Copyrighted 2023</p>
+    </section>
+</body>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>

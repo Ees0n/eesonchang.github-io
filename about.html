@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="icon.jpg">
+    <title>NISO University</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="logo.png" alt="University.com"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="nav-items"><a href="home.html">Home</a></li>
+                    <li class="nav-items"><a href="about.html">About</a></li>
+                    <li class="nav-items"><a href="course.html">Course</a></li>
+                    <li class="nav-items"><a href="blog.html">Blog</a></li>
+                    <li class="nav-items"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are world's lagerst University</h1>
+                <p>We take pride in being the world's largest university, with a diverse community of students, faculty, and staff from all over the globe. Our size enables us to offer an unparalleled range of academic programs and research initiatives, as well as a dynamic campus life that fosters creativity, innovation, and collaboration across disciplines.</p>
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+                </div>
+            <div class="about-col">
+                <img src="people1.jpg">
+            </div>
+        </div>
+                </section>
+             <section class="about-us">
+                   <div class="row">
+            <div class="about-col">
+                <h1>Acheievement in Our University</h1>
+                <p>At NISO university , we are proud to be recognized as the world's largest university, with a student population of over 10000+ from all corners of the world. Our size is a testament to our commitment to providing quality higher education to as many students as possible, and our diverse community of learners, faculty, and staff is a reflection of our dedication to creating an inclusive and welcoming environment for all. With over 100+ academic programs, cutting-edge research initiatives, and world-class facilities, we are at the forefront of shaping the future of education and innovation on a global scale.</p>
+                <a href="" class="hero-btn red-btn">More Info</a>
+
+            </div>
+
+            <div class="about-col">
+                <img src="1.jpg">
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <section class="footer">
+        <p>NISO University Copyrighted 2023</p>
+    </section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>

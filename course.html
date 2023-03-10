@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NISO University</title>
+    <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="logo.png" alt="University.com"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="nav-items"><a href="home.html">Home</a></li>
+                    <li class="nav-items"><a href="about.html">About</a></li>
+                    <li class="nav-items"><a href="course.html">Course</a></li>
+                    <li class="nav-items"><a href="blog.html">Blog</a></li>
+                    <li class="nav-items"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Courses</h1>
+
+    </section>
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+      <p>Our university offers a comprehensive course in Indermediate,Dergee and Post Graduation, which covers fundamental concepts and advanced topics to prepare students for careers in the industry, research, or further academic study.</p>
+        <div class="row">
+            <div class="course-col">
+                 <h3>Intermediate</h3>
+                <p>We progressed beyond the foundational courses and are now ready to tackle more challenging material in your chosen field of study, building upon the knowledge and skills you have already acquired.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Our degree program provides a comprehensive education in programms preparing students for successful careers through a combination of rigorous coursework, hands-on training, and real-world experience, all under the guidance of accomplished faculty and industry experts.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Our post-graduation program offers advanced studies and specialized training in progamms, equipping graduates with the knowledge, skills, and practical experience necessary to excel in their chosen careers and make a meaningful impact in their respective fields.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -----------Facility------------------->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We commit to meet the financial need of every admitted undergraduate student. We don’t consider your ability to pay when we review your application, and we don’t base our decision on whether you can cover the cost. If you’re accepted here, you belong here.</p>
+        
+        <div class="row">
+            <div class="facilities-col">
+                <img src="library.jpg">
+                <h3>World Class Library</h3>
+                <p>Our world-class library boasts an impressive collection of resources, including books, journals, digital archives, and multimedia materials, providing students and faculty with a wealth of knowledge and information at their fingertips.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="hotel.jpg">
+                <h3>Smooth and Comfortable Hotels </h3>
+                <p>Our hotels are designed to provide a smooth and comfortable experience for our students, with top-notch amenities, luxurious bedding, and exceptional service that will make you feel right at home.</p>
+            </div>    
+            <div class="facilities-col">
+                <img src="canteen.jpg">
+                <h3>High Quality Foods</h3>
+                <p>Our canteen is renowned for its high-quality, delicious food, made from fresh, locally sourced ingredients and prepared by skilled chefs who take pride in delivering a diverse range of flavorful and healthy options to satisfy any appetite.</p>
+              </div>
+            </div>
+    </section>
+    <hr>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We take pride in being the world's largest university, with a diverse community of students, faculty, and staff from all over the globe.</p>
+
+        <p>NISO University Copyrighted 2023</p>
+    </section>
+</body>
+
+<!-- -----------JAVA Script------------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>
