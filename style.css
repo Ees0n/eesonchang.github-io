@@ -5,7 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/* <!--------------------Header NavBar--> */
+
 .header {
     min-height: 100vh;
     width: 100%;
@@ -80,7 +80,6 @@ nav img {
     color: white;
 }
 
-/* <!--------------------Button of hero-btn class--> */
 
 .hero-btn {
     display: inline-block;
@@ -106,14 +105,14 @@ nav img {
 }
 
 
-/* <!--------------------icons to open of close tab--> */
+
 
 nav .fa {
     display: none;
 }
 
 
-/* <!--------------------Media queries for screen width 700px for cell phone using --> */
+
 
 @media(max-width: 700px) {
 
@@ -166,7 +165,7 @@ nav .fa {
 
 
 
-/* <!--------------------Course section--> */
+
 
 
 .course {
@@ -214,8 +213,7 @@ nav .fa {
 
 
 
-/* <!--------------------Media queries for course section and 
- further row become column in small devices.--> */
+
 
 @media (max-width: 700px) {
     .row {
@@ -226,8 +224,6 @@ nav .fa {
 
 
 
-
-/* <!--------------------Campus Section--> */
 
 
 .campus {
@@ -297,7 +293,6 @@ nav .fa {
 }
 
 
-/* <!--------------------Facilities Section--> */
 
 .facilities {
     width: 80%;
@@ -339,7 +334,6 @@ nav .fa {
     text-align: left;
 }
 
-/* <!--------------------Testmonials Section--> */
 
 
 .testmonials {
@@ -393,9 +387,6 @@ nav .fa {
 
 
 
-/* <!--------------------Testmonials Section media 
- queries to less the margin in small devices.--> */
-
 
 
 @media (max-width:700px) {
@@ -406,8 +397,6 @@ nav .fa {
 }
 
 
-
-/* <!--------------------Call to action Section--> */
 
 
 
@@ -430,11 +419,6 @@ nav .fa {
 
 
 
-/* <!--------------------CTA Section media query 
- for reducing the font size of heading h1--> */
-
-
-
 @media (max-width:700px) {
     .cta h1 {
         font-size: 15px;
@@ -443,7 +427,6 @@ nav .fa {
 
 
 
-/* <!--------------------Footer Section--> */
 
 
 .footer {
@@ -478,9 +461,6 @@ nav .fa {
     color: #f44336;
 }
 
-/* _________________________________________ */
-/*-------------- ABOUT US PAGE ------------- */
-/* _________________________________________ */
 
 .sub-header {
     height: 50vh;
@@ -536,9 +516,6 @@ nav .fa {
 }
 
 
-/* _________________________________________ */
-/*-------------- Blog PAGE ----------------- */
-/* _________________________________________ */
 
 .blog-content {
     width: 80%;
@@ -619,10 +596,6 @@ nav .fa {
     }
 }
 
-
-/* _________________________________________ */
-/*-------------- Contact us page ----------- */
-/* _________________________________________ */
 .location {
     width: 80%;
     margin: auto;
